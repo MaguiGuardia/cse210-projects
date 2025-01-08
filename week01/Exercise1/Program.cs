@@ -3,8 +3,11 @@ using System;
 class Program
 {
     static void Main(string[] args)
-    {
-        Console.WriteLine("Hello World! This is the Exercise1 Project."); 
-        Console.Write("What is your name?");
+    { 
+        Console.Write("What is your first name?"); 
+        string name = Console.ReadLine ();
+
+        Console.Write(name);
+        
     }
 }
