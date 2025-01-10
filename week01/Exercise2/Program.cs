@@ -37,5 +37,5 @@
       }
       else
       {
-         Console.WriteLine("Sorry, you didn't pass, try again and make it! You can!");
+         Console.WriteLine("Sorry, you didn't passed, try again and make it next time! You can!");
       }
