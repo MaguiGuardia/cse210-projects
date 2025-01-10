@@ -30,4 +30,12 @@
          }
 
          Console.WriteLine($"Your grade is: {letter} ");
-      
+     
+      if (number >=70)
+      {
+         Console.WriteLine("CONGRATS! You passed!");
+      }
+      else
+      {
+         Console.WriteLine("Sorry, you didn't pass, try again and make it! You can!");
+      }
