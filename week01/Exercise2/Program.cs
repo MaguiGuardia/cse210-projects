@@ -29,5 +29,5 @@
             letter = "F";
          }
 
-         Console.WriteLine("Your grade is: {letter} ");
+         Console.WriteLine($"Your grade is: {letter} ");
       
