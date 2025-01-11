@@ -2,7 +2,7 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        Console.Write("what is the magic number?");
+        Console.Write("what is the magic number? ");
         int magicNumber = int.Parse(Console.ReadLine());
 
 
@@ -19,11 +19,11 @@ internal class Program
             }
             else if (userNumber > magicNumber)
             {
-                Console.Write("Lower");
+                Console.WriteLine("Lower");
             }
             else
             {
-                Console.Write("Higher");
+                Console.WriteLine("Higher");
             }
         }
     }
