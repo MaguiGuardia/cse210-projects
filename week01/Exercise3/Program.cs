@@ -2,5 +2,3 @@
         int userNumber = int.Parse(Console.ReadLine());
         
 
-         
-
