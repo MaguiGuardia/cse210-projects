@@ -1,9 +1,6 @@
-using System;
+        Console.Write("what is the magic number?");
+        int userNumber = int.Parse(Console.ReadLine());
+        
 
-class Program
-{
-    static void Main(string[] args)
-    {
-        Console.WriteLine("Hello World! This is the Exercise3 Project.");
-    }
-}
+         
+
