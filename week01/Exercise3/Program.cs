@@ -2,9 +2,8 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        Console.Write("what is the magic number? ");
-        int magicNumber = int.Parse(Console.ReadLine());
-
+        Random randomGenerator = new Random();
+        int magicNumber = randomGenerator.Next(1, 11);
 
         int userNumber = -1;
 
