@@ -21,6 +21,10 @@ class Program
 
         job1.Display();
         job2.Display();
+
+        Resume resume1 = new Resume();
+        resume1._name = "Allison Rose";
+        
     }
    
 }
