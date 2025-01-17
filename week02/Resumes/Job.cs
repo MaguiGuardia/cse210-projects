@@ -1,10 +1,16 @@
+using System;
+
 public class Job 
 {
-    public class _company;
-   public class  _jobTitle;
-   public class  _startYear;
-   public class _endYear;
+    public string _company;
+   public string _jobTitle;
+   public int _startYear;
+   public int _endYear;
+
+    public void Display() 
     {
-        Display(): void
+        Console.WriteLine($"{_company}, {_jobTitle}, {_startYear}, {_endYear},");
+
     }
+
 }
