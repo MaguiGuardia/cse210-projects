@@ -11,11 +11,9 @@ class Program
         job1._jobTitle = "Software Engineer";
         job1._startYear = 2019;
         job1._endYear = 2022;
-    }
 
-        public void Display()
-        {
-        Console.WriteLine("{job1_company}");
-        }
+        Console.WriteLine($"{job1._company}");
     
+    }
+   
 }
