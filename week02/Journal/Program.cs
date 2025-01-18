@@ -4,7 +4,8 @@ class Program
 {
     static void Main(string[] args)
     {
-       
+       Journal journal1 = new(); 
+
         while(true)
         {
             Console.WriteLine("1. Write a new entry");
@@ -14,13 +15,13 @@ class Program
             Console.WriteLine("5. quit");
 
             Console.Write("enter selection: ");
-            string userImput=Console.ReadLine();
+            string userImput = Console.ReadLine();
 
             Console.WriteLine($"user selected {userImput}");
 
             if (userImput == "1")
             {
-                Console.WriteLine("Write New Entry");
+                journal1.CreateNewEntry();
 
             }
             else if (userImput == "2")
