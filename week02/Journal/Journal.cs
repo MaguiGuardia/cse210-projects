@@ -6,7 +6,7 @@ public class Journal
     {
         string prompt = PromptGenerator.GetRandomPrompt();
         Console.WriteLine(prompt);
-        Console.Write("Write the text of your entry as aa single string");
+        Console.Write("Write the text of your entry as aa single string. ");
         string entryText = Console.ReadLine();
         Entry entry = new(prompt, entryText);
         _entries.Add(entry);
