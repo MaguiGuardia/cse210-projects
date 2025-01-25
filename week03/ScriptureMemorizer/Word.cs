@@ -10,7 +10,7 @@ public class Word
 
     public void Hide()
     {
-
+        _isHidden = true;
     }
 
     public void Show()
@@ -18,9 +18,9 @@ public class Word
 
     }
 
-    public void IsHidden()
+    public bool IsHidden()
     {
-        
+        return _isHidden;
     }
     
     public string GetDisplayText()

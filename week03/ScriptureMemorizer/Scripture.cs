@@ -2,6 +2,14 @@ public class Scripture
 {
     private string _text;
     private static List<Word> _words = new List<Word>();
+        public Scripture(string text)
+        {
+            string[] words = text.Split("  ");
+            foreach (string word in words)
+            {
+                
+            }
+        }
     
 
     public Scripture(string text)
@@ -12,7 +20,7 @@ public class Scripture
 
     public void HideRandomWords(int numberToHide)
     {
-
+        
     }
 
 
