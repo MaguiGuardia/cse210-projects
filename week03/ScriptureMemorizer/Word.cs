@@ -5,7 +5,7 @@ public class Word
 
     public Word(string text)
     {
-
+        _text = text;
     }
 
     public void Hide()
@@ -20,7 +20,7 @@ public class Word
 
     public void IsHidden()
     {
-
+        
     }
     
     public string GetDisplayText()

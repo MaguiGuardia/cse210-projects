@@ -1,10 +1,8 @@
 public class Scripture
 {
     private string _text;
-    private static List<Word> _words = new List<Word>
-    {
-
-    };
+    private static List<Word> _words = new List<Word>();
+    
 
     public Scripture(string text)
     {
