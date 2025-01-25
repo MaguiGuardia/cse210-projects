@@ -1,14 +1,14 @@
 public class Scripture
 {
-    private string _reference;
+    private string _text;
     private static List<Word> _words = new List<Word>
     {
 
     };
 
-    public Scripture(string text, Reference reference)
+    public Scripture(string text)
     {
-
+        _text = text;
     }
 
 
@@ -20,7 +20,8 @@ public class Scripture
 
     public string GetDisplayText()
     {
-        return "";
+        string text =  $"{_text}";
+        return text;
     }
 
     public bool IsCompletelyHidden()

@@ -9,7 +9,9 @@ public class Reference
 
     public Reference(string book, int chapter, int verse)
     {
-
+        _book = book;
+        _chapter = chapter;
+        _verse = verse;
     }
 
     public Reference(string book, int chapter, int startVerse, int endVerse)
@@ -19,6 +21,7 @@ public class Reference
 
     public string GetDisplayText()
     {
-        return "";
+        string text = $"{_book}, {_chapter}:{_verse}-{_endVerse}";
+        return text;
     }
 }
