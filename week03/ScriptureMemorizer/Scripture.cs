@@ -1,6 +1,10 @@
 public class Scripture
 {
     private string _reference;
+    private static List<Word> _words = new List<Word>
+    {
+
+    };
 
     public Scripture(string text, Reference reference)
     {
